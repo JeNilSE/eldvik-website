@@ -13,8 +13,12 @@ no build step. You can hand this whole folder to Claude any time and say
 - `js/config.js` — **the Discord invite link lives here, in one place.**
 - `js/progression-data.js` — **raid status and boss kills live here, in one
   place**, for the Progression page.
+- `js/news-data.js` — **guild news posts live here, in one place**. Copy an
+  entry, change the date/title/text, save — the Home page always shows the
+  3 newest automatically.
 - `js/main.js` — small page behaviors (mobile menu, filling in the Discord link).
-- `js/i18n.js` / `js/progression.js` — the systems that read the two files above.
+- `js/i18n.js` / `js/progression.js` / `js/news.js` — the systems that read
+  the data files above.
 - `lang/en.json` — the English text, kept here as the master copy for translators.
 - `images/banner.jpg`, `images/icon.jpg` — your artwork.
 
@@ -22,6 +26,7 @@ no build step. You can hand this whole folder to Claude any time and say
 
 - **"Update the Discord link"** → one line in `js/config.js`.
 - **"Update a raid's status / boss kills"** → `js/progression-data.js`.
+- **"Add a news post"** → `js/news-data.js`.
 - **"Update the faction / raid nights"** → the info boxes near the top
   of `index.html` and `recruitment.html` (currently say "TBA").
 - **"Add Swedish/Norwegian/Danish"** → Claude copies `lang/en.json` to e.g.
