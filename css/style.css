@@ -446,18 +446,31 @@ main { display: block; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
-  row-gap: 2.6rem;
+  row-gap: 3.6rem;
   margin-top: 2rem;
 }
 
 .plain-list__item h3 {
   color: var(--color-gold-bright);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 .plain-list__item p {
   color: var(--color-text-muted);
+  margin-bottom: 1em;
+}
+
+.plain-list__item p:last-child {
   margin-bottom: 0;
+}
+
+/* About page: keep body text lines short and easy to read */
+.page-about main p {
+  max-width: 65ch;
+}
+
+.page-about .hero p.lead {
+  max-width: 65ch;
 }
 
 .card h3 { color: var(--color-gold-bright); margin-bottom: 0.5rem; }
@@ -617,7 +630,7 @@ main { display: block; }
 
   .plain-list {
     grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 2.8rem;
   }
 
   .site-nav__links {
