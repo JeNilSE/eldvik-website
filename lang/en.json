@@ -1,0 +1,90 @@
+{
+  "common.nav.home": "Home",
+  "common.nav.about": "About",
+  "common.nav.recruitment": "Recruitment",
+  "common.nav.join": "Join",
+  "common.nav.discord": "Discord",
+
+  "common.banner.wordmark": "Eldvik",
+  "common.banner.tagline": "A Nordic guild for World of Warcraft: Forever",
+
+  "common.footer.copyright": "Eldvik — World of Warcraft: Forever",
+  "common.footer.disclaimer": "Eldvik is an unofficial fan community for World of Warcraft: Forever and is not affiliated with or endorsed by Blizzard Entertainment.",
+
+  "common.info.realm.label": "Realm",
+  "common.info.realm.value": "TBA — not yet announced by Blizzard",
+  "common.info.faction.label": "Faction",
+  "common.info.faction.value": "Alliance (to be confirmed)",
+  "common.info.raid.label": "Raid Nights",
+  "common.info.raid.value": "TBA — two evenings a week, European time",
+
+  "common.cta.discord": "Join our Discord",
+
+  "home.hero.title": "A Hearth for Nordic Adventurers",
+  "home.hero.lead": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
+  "home.hero.ctaSecondary": "Meet the Guild",
+
+  "home.values.title": "Why Eldvik",
+  "home.values.social.title": "Social First",
+  "home.values.social.body": "We're here for good company as much as good loot. New to the game or a returning veteran — you're welcome at the fire.",
+  "home.values.raiding.title": "Casual Raiding",
+  "home.values.raiding.body": "We raid together, but we don't chase parses or logs. Real life always comes first.",
+  "home.values.nordic.title": "Nordic at Heart",
+  "home.values.nordic.body": "Swedish, Norwegian and Danish players — English speakers welcome too. Every accent is welcome around the campfire.",
+
+  "home.closing.title": "Ready to Find Your Hearth?",
+  "home.closing.body": "Come say hello. No application, no pressure — just join the Discord and see what Eldvik is about.",
+
+  "about.hero.title": "About Eldvik",
+  "about.story.body": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
+
+  "about.name.title": "The Name",
+  "about.name.body": "Eld is the Nordic word for fire; vik means bay or cove. Eldvik — a fire by the water, and a place to gather when the day is done.",
+
+  "about.values.title": "What We Value",
+  "about.values.item1.title": "Respect First",
+  "about.values.item1.body": "However you play, whatever your experience — you'll be treated with respect from day one.",
+  "about.values.item2.title": "Show Up When You Can",
+  "about.values.item2.body": "Life comes first. We'd rather you log in when you're able than burn out trying to be somewhere every night.",
+  "about.values.item3.title": "Ask Anything",
+  "about.values.item3.body": "There's no such thing as a stupid question here. We were all new once.",
+  "about.values.item4.title": "No Drama, No Gatekeeping",
+  "about.values.item4.body": "No logs, no parses, no elitism. Just people enjoying a game together.",
+
+  "about.quote": "The road is easier with someone walking beside you.",
+
+  "about.closing.title": "Sounds Like Your Kind of Guild?",
+  "about.closing.body": "Come meet us properly. See what recruitment looks like, or jump straight to our Discord.",
+  "about.closing.ctaSecondary": "See Recruitment",
+
+  "recruitment.hero.title": "Recruitment",
+  "recruitment.hero.lead": "All classes and roles are welcome at Eldvik. We're social-first: adults from Sweden, Norway and Denmark — English speakers welcome too — with no experience requirements. No logs, no parses, just good company and a willingness to show up.",
+
+  "recruitment.looking.title": "What We're Looking For",
+  "recruitment.looking.item1.title": "All Classes & Roles",
+  "recruitment.looking.item1.body": "Tanks, healers, DPS — bring whichever you enjoy playing most. We build the raid around the people, not the other way around.",
+  "recruitment.looking.item2.title": "Adults, Nordic Friendly",
+  "recruitment.looking.item2.body": "Adult players from Sweden, Norway and Denmark. English speakers are just as welcome.",
+  "recruitment.looking.item3.title": "No Experience Required",
+  "recruitment.looking.item3.body": "New to raiding, or coming back after a long break? No gatekeeping — just bring a good attitude.",
+
+  "recruitment.schedule.title": "How Raiding Will Work",
+  "recruitment.schedule.body": "Raid nights will be announced closer to launch — expect two evenings a week, European time, so weeknights work alongside jobs, studies and families.",
+
+  "recruitment.closing.title": "Ready to Join Us?",
+  "recruitment.closing.body": "Head over to the Join page for the two-minute how-to, or jump straight into our Discord.",
+  "recruitment.closing.ctaSecondary": "How to Join",
+
+  "join.hero.title": "Join Eldvik",
+  "join.hero.lead": "Joining Eldvik takes about two minutes. Here's how:",
+
+  "join.step1.title": "Join Our Discord",
+  "join.step1.body": "Our Discord server is where the guild actually lives — announcements, raid planning and everyday chat all happen there.",
+  "join.step2.title": "Head to #apply-to-eldvik",
+  "join.step2.body": "Find the #apply-to-eldvik forum channel and open a new post.",
+  "join.step3.title": "Introduce Yourself",
+  "join.step3.body": "Tell us a little about you — where you're from, what you like to play, and what you're hoping to find in a guild. An officer will get back to you.",
+
+  "join.reassurance": "No application is too short or too long. We just want to get to know you before we start planning raids together.",
+  "join.launchNote": "Realm and raid schedule will be announced as launch (November 4, 2026) gets closer — join the Discord now to be part of the planning."
+}
