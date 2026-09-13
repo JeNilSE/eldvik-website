@@ -36,7 +36,16 @@
       date.textContent = formatDate(post.date);
 
       var title = document.createElement("h3");
-      title.textContent = post.title;
+      if (post.link) {
+        var titleLink = document.createElement("a");
+        titleLink.href = post.link;
+        titleLink.target = "_blank";
+        titleLink.rel = "noopener";
+        titleLink.textContent = post.title;
+        title.appendChild(titleLink);
+      } else {
+        title.textContent = post.title;
+      }
 
       var text = document.createElement("p");
       text.className = "news-item__text";

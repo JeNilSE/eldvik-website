@@ -466,19 +466,15 @@ main { display: block; }
   margin-bottom: 0;
 }
 
-/* News (Home page) */
+/* News (Home page): a plain divided list, distinct from the cards above */
 .news-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.4rem;
   margin-top: 2rem;
+  border-top: 1px solid var(--color-border);
 }
 
 .news-item {
-  background: var(--color-bg-card);
-  border-radius: var(--radius);
-  padding: 1.6rem;
-  box-shadow: var(--shadow-card);
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .news-item__date {
@@ -493,6 +489,15 @@ main { display: block; }
 .news-item h3 {
   color: var(--color-gold-bright);
   margin-bottom: 0.5rem;
+}
+
+.news-item h3 a {
+  color: inherit;
+}
+
+.news-item h3 a:hover,
+.news-item h3 a:focus {
+  color: var(--color-flame-bright);
 }
 
 .news-item__text {
