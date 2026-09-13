@@ -394,9 +394,6 @@ main { display: block; }
   padding: 1.1rem 1.3rem;
   text-align: left;
   box-shadow: var(--shadow-card);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .info-card .label {
@@ -433,9 +430,6 @@ main { display: block; }
   border-radius: var(--radius);
   padding: 1.6rem;
   box-shadow: var(--shadow-card);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .card--accent::before {
@@ -467,9 +461,6 @@ main { display: block; }
   border-radius: var(--radius);
   padding: 1.2rem 1.4rem 1.2rem 3.4rem;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .steps li::before {

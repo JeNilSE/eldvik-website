@@ -48,7 +48,6 @@
   "about.values.item4.body": "No logs, no parses, no elitism. Just people enjoying a game together.",
 
   "about.closing.title": "Want to know more?",
-  "about.closing.body": "Take a look at recruitment, or go straight to our Discord to apply.",
   "about.closing.ctaSecondary": "See recruitment",
 
   "recruitment.hero.title": "Recruitment",
@@ -62,11 +61,11 @@
   "recruitment.looking.item3.title": "No experience needed",
   "recruitment.looking.item3.body": "New to raiding, or coming back after a break? That's fine. We don't check logs or ask about experience.",
 
-  "recruitment.schedule.title": "How raiding will work",
-  "recruitment.schedule.body": "Raid nights will be announced closer to launch. Expect two evenings a week, European time, so weeknights work alongside jobs, studies and families.",
+  "recruitment.schedule.title": "Raid times",
+  "recruitment.schedule.body": "Raid times will be announced closer to launch and when people have started to reach 60.",
 
   "recruitment.loot.title": "Loot",
-  "recruitment.loot.body": "Loot will use softreserve. Before each raid, you say which item you want, and if it drops, you get priority over anyone who didn't reserve it. Exact rules will be decided together with the guild before the first raid. The goal is something simple and fair, not a complicated points system.",
+  "recruitment.loot.body": "We will be using softreserve for loot while we raid.",
 
   "recruitment.faq.title": "Frequently asked questions",
   "recruitment.faq.q1": "What ruleset and faction do you play?",
