@@ -14,7 +14,7 @@
       if (!Object.prototype.hasOwnProperty.call(data, key)) return;
 
       var value = data[key];
-      el.textContent = value ? value : "—";
+      el.textContent = value ? value : "Not tracked yet";
       el.classList.toggle("is-empty", !value);
     });
   });

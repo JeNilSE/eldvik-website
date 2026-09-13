@@ -2,13 +2,12 @@
   "common.nav.home": "Home",
   "common.nav.about": "About",
   "common.nav.recruitment": "Recruitment",
-  "common.nav.progression": "Progression",
+  "common.nav.progression": "Raid Progression",
   "common.nav.discord": "Apply",
 
   "common.banner.wordmark": "Eldvik",
-  "common.banner.tagline": "A Nordic guild for World of Warcraft: Forever",
 
-  "common.footer.copyright": "Eldvik — World of Warcraft: Forever",
+  "common.footer.copyright": "Eldvik · World of Warcraft: Forever",
   "common.footer.disclaimer": "Eldvik is an unofficial fan community for World of Warcraft: Forever and is not affiliated with or endorsed by Blizzard Entertainment.",
 
   "common.info.ruleset.label": "Ruleset",
@@ -16,28 +15,27 @@
   "common.info.faction.label": "Faction",
   "common.info.faction.value": "Alliance (to be confirmed)",
   "common.info.raid.label": "Raid Nights",
-  "common.info.raid.value": "TBA — two evenings a week, European time",
+  "common.info.raid.value": "TBA",
 
   "common.cta.discord": "Apply to Eldvik",
 
   "home.hero.title": "A guild for Nordic players",
-  "home.hero.lead": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
+  "home.hero.lead": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're from Sweden, Norway and Denmark. We think the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Work and everyday life come first, and we plan raiding around that.",
   "home.hero.ctaSecondary": "About us",
-  "home.realmless": "World of Warcraft: Forever is realmless — there's no server to pick. Anyone can join us, wherever they are.",
+  "home.realmless": "World of Warcraft: Forever is realmless. There's no server to pick. Anyone can join us, wherever they are.",
 
-  "home.values.title": "What we're about",
+  "home.values.title": "About Eldvik",
   "home.values.social.title": "Social first",
   "home.values.social.body": "We care about good company as much as good loot. It doesn't matter if you're new to the game or you've played for years.",
   "home.values.raiding.title": "Casual raiding",
-  "home.values.raiding.body": "We raid together, but we don't chase parses or logs. Real life always comes first.",
+  "home.values.raiding.body": "We raid together, but we don't chase parses or logs. Life outside the game comes first.",
   "home.values.nordic.title": "Where we're from",
-  "home.values.nordic.body": "Most of us are from Sweden, Norway and Denmark. English speakers are welcome too.",
+  "home.values.nordic.body": "Most of us are from Sweden, Norway and Denmark.",
 
   "home.closing.title": "Interested?",
-  "home.closing.body": "Applying is simple. Post a short introduction about yourself in our Discord.",
 
   "about.hero.title": "About Eldvik",
-  "about.story.body": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
+  "about.story.body": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're from Sweden, Norway and Denmark. We think the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Work and everyday life come first, and we plan raiding around that.",
 
   "about.values.title": "What we value",
   "about.values.item1.title": "Respect",
@@ -54,29 +52,29 @@
   "about.closing.ctaSecondary": "See recruitment",
 
   "recruitment.hero.title": "Recruitment",
-  "recruitment.hero.lead": "All classes and roles are welcome at Eldvik. We're social-first: adults from Sweden, Norway and Denmark — English speakers welcome too — with no experience requirements. No logs, no parses, just good company and a willingness to show up.",
+  "recruitment.hero.lead": "All classes and roles are welcome at Eldvik. We're social first, a Nordic guild from Sweden, Norway and Denmark, with no experience requirements. No logs, no parses, just good company and a willingness to show up.",
 
   "recruitment.looking.title": "What we're looking for",
   "recruitment.looking.item1.title": "Any class, any role",
-  "recruitment.looking.item1.body": "We're not short on anything in particular. Play what you like — tank, healer or damage.",
-  "recruitment.looking.item2.title": "Adults, Nordic friendly",
-  "recruitment.looking.item2.body": "Adult players from Sweden, Norway and Denmark. English speakers are just as welcome.",
+  "recruitment.looking.item1.body": "Play what you like.",
+  "recruitment.looking.item2.title": "Nordic at heart",
+  "recruitment.looking.item2.body": "We're a Nordic guild, Swedish, Norwegian and Danish. We speak English when someone doesn't follow along.",
   "recruitment.looking.item3.title": "No experience needed",
   "recruitment.looking.item3.body": "New to raiding, or coming back after a break? That's fine. We don't check logs or ask about experience.",
 
   "recruitment.schedule.title": "How raiding will work",
-  "recruitment.schedule.body": "Raid nights will be announced closer to launch — expect two evenings a week, European time, so weeknights work alongside jobs, studies and families.",
+  "recruitment.schedule.body": "Raid nights will be announced closer to launch. Expect two evenings a week, European time, so weeknights work alongside jobs, studies and families.",
 
   "recruitment.loot.title": "Loot",
-  "recruitment.loot.body": "Loot rules will be decided together with the guild before the first raid. The goal is something simple and fair, not a complicated points system.",
+  "recruitment.loot.body": "Loot will use softreserve. Before each raid, you say which item you want, and if it drops, you get priority over anyone who didn't reserve it. Exact rules will be decided together with the guild before the first raid. The goal is something simple and fair, not a complicated points system.",
 
   "recruitment.faq.title": "Frequently asked questions",
   "recruitment.faq.q1": "What ruleset and faction do you play?",
-  "recruitment.faq.a1": "PvP ruleset, and Alliance — though that's not fully confirmed yet.",
+  "recruitment.faq.a1": "PvP ruleset, and Alliance, though that's not fully confirmed yet.",
   "recruitment.faq.q2": "Is there a server I need to be on?",
   "recruitment.faq.a2": "No. World of Warcraft: Forever doesn't have separate realms, so there's nothing to pick and nowhere to transfer from.",
   "recruitment.faq.q3": "How much do I need to play?",
-  "recruitment.faq.a3": "As much or as little as you like outside of raid nights. We don't track playtime.",
+  "recruitment.faq.a3": "As much or as little as you like outside of raid nights. We don't track playtime. We're a grown up guild with jobs, studies and families.",
   "recruitment.faq.q4": "Do I have to raid?",
   "recruitment.faq.a4": "No. Plenty of members are here for the social side and don't raid at all.",
   "recruitment.faq.q5": "Do I have to speak on voice chat?",
@@ -101,14 +99,14 @@
   "join.step3.body": "Say where you're from, what you like to play, and anything else you want us to know. An officer will reply.",
 
   "join.reassurance": "It doesn't have to be long. A few sentences is enough.",
-  "join.launchNote": "Raid schedule will be announced as launch (November 4, 2026) gets closer — join the Discord now to be part of the planning.",
+  "join.launchNote": "Raid schedule will be announced as launch (November 4, 2026) gets closer. Join the Discord now to be part of the planning.",
 
-  "progression.hero.title": "Progression",
-  "progression.hero.lead": "Progression will be tracked here once we start raiding after launch on November 4, 2026.",
+  "progression.hero.title": "Raid Progression",
+  "progression.hero.lead": "World of Warcraft: Forever launches on November 4, 2026. Raiding opens in December 2026. Progression will be tracked here once that starts.",
   "progression.raid1.name": "Barrow Deeps",
-  "progression.raid1.meta": "Blackmaw Hold, Kalimdor — 10-player raid",
+  "progression.raid1.meta": "A 10-player raid in Blackmaw Hold, Kalimdor.",
   "progression.raid2.name": "Hyjal Summit",
-  "progression.raid2.meta": "Mount Hyjal, Kalimdor — 20-player raid",
+  "progression.raid2.meta": "A 20-player raid in Mount Hyjal, Kalimdor.",
   "progression.stat.status": "Status",
   "progression.stat.bossProgress": "Boss progress"
 }
