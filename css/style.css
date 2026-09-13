@@ -24,6 +24,8 @@
   --color-flame-deep: #1f6fa8;
   --color-gold: #d9a441;
   --color-gold-bright: #f0c674;
+  --color-status-open: #5fae6c;
+  --color-status-closed: #d1685f;
 
   /* Type */
   --font-heading: 'Cinzel', Georgia, 'Times New Roman', serif;
@@ -502,6 +504,88 @@ main { display: block; }
 
 .news-item__text {
   color: var(--color-text-muted);
+  margin-bottom: 0;
+}
+
+/* Raid recruitment status list (Recruitment page) */
+.recruit-list {
+  list-style: none;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  max-width: 480px;
+  border-top: 1px solid var(--color-border);
+}
+
+.recruit-row {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recruit-row__icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  color: var(--color-gold);
+}
+
+.recruit-row__role {
+  flex: 1;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+.recruit-row__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.recruit-row__status-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.recruit-row__status.is-open .recruit-row__status-icon { background: var(--color-status-open); }
+.recruit-row__status.is-closed .recruit-row__status-icon { background: var(--color-status-closed); }
+.recruit-row__status.is-open .recruit-row__status-label { color: var(--color-status-open); }
+.recruit-row__status.is-closed .recruit-row__status-label { color: var(--color-status-closed); }
+
+/* Compact info blocks (Raid times / Loot on Recruitment page) */
+.section--compact {
+  padding: 1.6rem 0;
+}
+
+.mini-block-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem 2.4rem;
+}
+
+.mini-block__title {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-bottom: 0.4rem;
+}
+
+.mini-block p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
   margin-bottom: 0;
 }
 

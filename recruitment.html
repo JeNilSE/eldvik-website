@@ -63,6 +63,46 @@
       </div>
     </section>
 
+    <section class="section">
+      <div class="container">
+        <h2 data-i18n="recruitment.roles.title">Raid recruitment</h2>
+        <ul class="recruit-list">
+          <li class="recruit-row">
+            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.2 8.5-7 10-3.8-1.5-7-5-7-10V6l7-3z"/></svg></span>
+            <span class="recruit-row__role" data-i18n="recruitment.roles.tank">Tank</span>
+            <span class="recruit-row__status is-open" data-recruitment-status="tank">
+              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-label">Open</span>
+            </span>
+          </li>
+          <li class="recruit-row">
+            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></span>
+            <span class="recruit-row__role" data-i18n="recruitment.roles.healer">Healer</span>
+            <span class="recruit-row__status is-open" data-recruitment-status="healer">
+              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-label">Open</span>
+            </span>
+          </li>
+          <li class="recruit-row">
+            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="17" y2="7"/><line x1="14" y1="4" x2="20" y2="10"/><line x1="13" y1="8" x2="16" y2="11"/></svg></span>
+            <span class="recruit-row__role" data-i18n="recruitment.roles.dps">DPS</span>
+            <span class="recruit-row__status is-open" data-recruitment-status="dps">
+              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-label">Open</span>
+            </span>
+          </li>
+          <li class="recruit-row">
+            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4V5z"/></svg></span>
+            <span class="recruit-row__role" data-i18n="recruitment.roles.social">Social</span>
+            <span class="recruit-row__status is-open" data-recruitment-status="social">
+              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-label">Open</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="section section-alt">
       <div class="container">
         <h2 data-i18n="recruitment.looking.title">What we're looking for</h2>
@@ -83,17 +123,18 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section section--compact">
       <div class="container">
-        <h2 data-i18n="recruitment.schedule.title">Raid times</h2>
-        <p data-i18n="recruitment.schedule.body">Raid times will be announced closer to launch and when people have started to reach 60.</p>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container">
-        <h2 data-i18n="recruitment.loot.title">Loot</h2>
-        <p data-i18n="recruitment.loot.body">We will be using softreserve for loot while we raid.</p>
+        <div class="mini-block-grid">
+          <div class="mini-block">
+            <h3 class="mini-block__title" data-i18n="recruitment.schedule.title">Raid times</h3>
+            <p data-i18n="recruitment.schedule.body">Raid times will be announced closer to launch and when people have started to reach 60.</p>
+          </div>
+          <div class="mini-block">
+            <h3 class="mini-block__title" data-i18n="recruitment.loot.title">Loot</h3>
+            <p data-i18n="recruitment.loot.body">We will be using softreserve for loot while we raid.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -154,7 +195,9 @@
   </footer>
 
   <script src="js/config.js"></script>
+  <script src="js/recruitment-data.js"></script>
   <script src="js/i18n.js"></script>
+  <script src="js/recruitment-status.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

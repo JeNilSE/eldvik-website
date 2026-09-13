@@ -27,6 +27,7 @@ no build step. You can hand this whole folder to Claude any time and say
 - **"Update the Discord link"** → one line in `js/config.js`.
 - **"Update a raid's status / boss kills"** → `js/progression-data.js`.
 - **"Add a news post"** → `js/news-data.js`.
+- **"Open/close recruitment for a role"** → `js/recruitment-data.js`.
 - **"Update the faction / raid nights"** → the info boxes near the top
   of `index.html` and `recruitment.html` (currently say "TBA").
 - **"Add Swedish/Norwegian/Danish"** → Claude copies `lang/en.json` to e.g.
