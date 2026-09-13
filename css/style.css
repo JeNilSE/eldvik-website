@@ -441,6 +441,30 @@ main { display: block; }
   margin-bottom: 1rem;
 }
 
+/* Plain vertical list (no card boxes) */
+.plain-list {
+  margin-top: 2rem;
+  max-width: 640px;
+}
+
+.plain-list__item {
+  margin-bottom: 1.8rem;
+}
+
+.plain-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.plain-list__item h3 {
+  color: var(--color-gold-bright);
+  margin-bottom: 0.4rem;
+}
+
+.plain-list__item p {
+  color: var(--color-text-muted);
+  margin-bottom: 0;
+}
+
 .card h3 { color: var(--color-gold-bright); margin-bottom: 0.5rem; }
 .card p { color: var(--color-text-muted); margin-bottom: 0; }
 
