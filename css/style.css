@@ -241,8 +241,12 @@ a:hover, a:focus { color: var(--color-gold-bright); }
 }
 
 .site-nav__cta {
-  border: 1px solid var(--color-gold) !important;
-  margin-left: 0.3rem;
+  color: var(--color-gold-bright);
+}
+
+.site-nav__cta:hover,
+.site-nav__cta:focus {
+  color: var(--color-flame-bright);
 }
 
 /* ---------- Language switcher ---------- */
@@ -432,10 +436,13 @@ main { display: block; }
   box-shadow: var(--shadow-card);
 }
 
-.card .icon {
-  font-size: 1.6rem;
-  margin-bottom: 0.6rem;
-  display: inline-block;
+.card::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--color-gold);
+  margin-bottom: 1rem;
 }
 
 .card h3 { color: var(--color-gold-bright); margin-bottom: 0.5rem; }
@@ -547,8 +554,6 @@ main { display: block; }
   .site-nav__links.is-open { display: flex; }
 
   .site-nav__links a { padding: 0.8rem 1rem; }
-
-  .site-nav__cta { margin-left: 0; margin-top: 0.3rem; text-align: center; }
 
   .lang-switch { position: static; margin: 0.4rem 0 0; }
   .lang-switch__menu { left: 0.5rem; right: 0.5rem; }
