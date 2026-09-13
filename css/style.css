@@ -441,13 +441,19 @@ main { display: block; }
   margin-bottom: 1rem;
 }
 
-/* Plain list (no card boxes) */
+/* Plain list, styled as cards: subtle background, no border */
 .plain-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 3rem;
-  row-gap: 3.6rem;
+  gap: 1.6rem;
   margin-top: 2rem;
+}
+
+.plain-list__item {
+  background: var(--color-bg-card);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  box-shadow: var(--shadow-card);
 }
 
 .plain-list__item h3 {
@@ -457,10 +463,6 @@ main { display: block; }
 
 .plain-list__item p {
   color: var(--color-text-muted);
-  margin-bottom: 1em;
-}
-
-.plain-list__item p:last-child {
   margin-bottom: 0;
 }
 
@@ -469,8 +471,9 @@ main { display: block; }
   max-width: 65ch;
 }
 
+/* ...except the intro paragraph, which should span the full content width */
 .page-about .hero p.lead {
-  max-width: 65ch;
+  max-width: none;
 }
 
 .card h3 { color: var(--color-gold-bright); margin-bottom: 0.5rem; }
@@ -630,7 +633,6 @@ main { display: block; }
 
   .plain-list {
     grid-template-columns: 1fr;
-    row-gap: 2.8rem;
   }
 
   .site-nav__links {
