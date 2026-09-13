@@ -17,5 +17,8 @@ window.ELDVIK_PROGRESSION = {
   "barrowDeeps.bossProgress": "",
 
   "hyjalSummit.status": "Not yet available",
-  "hyjalSummit.bossProgress": ""
+  "hyjalSummit.bossProgress": "",
+
+  "onyxiasLair.status": "Not yet available",
+  "onyxiasLair.bossProgress": ""
 };

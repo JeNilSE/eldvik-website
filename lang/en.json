@@ -107,6 +107,8 @@
   "progression.raid1.meta": "A 10-player raid in Blackmaw Hold, Kalimdor.",
   "progression.raid2.name": "Hyjal Summit",
   "progression.raid2.meta": "A 20-player raid in Mount Hyjal, Kalimdor.",
+  "progression.raid3.name": "Onyxia's Lair",
+  "progression.raid3.meta": "A 40-player raid in Dustwallow Marsh, Kalimdor.",
   "progression.stat.status": "Status",
   "progression.stat.bossProgress": "Boss progress"
 }
