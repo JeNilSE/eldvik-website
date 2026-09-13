@@ -28,6 +28,9 @@ no build step. You can hand this whole folder to Claude any time and say
 - **"Update a raid's status / boss kills"** → `js/progression-data.js`.
 - **"Add a news post"** → `js/news-data.js`.
 - **"Open/close recruitment for a role"** → `js/recruitment-data.js`.
+- **"Use a real image for the Tank/Healer/DPS icons"** → just add
+  `images/tank.png`, `images/healer.png` and/or `images/dps.png`. The site
+  automatically uses a file the moment it exists; no code changes needed.
 - **"Update the faction / raid nights"** → the info boxes near the top
   of `index.html` and `recruitment.html` (currently say "TBA").
 - **"Add Swedish/Norwegian/Danish"** → Claude copies `lang/en.json` to e.g.

@@ -65,37 +65,52 @@
 
     <section class="section">
       <div class="container">
-        <h2 data-i18n="recruitment.roles.title">Raid recruitment</h2>
+        <h2 data-i18n="recruitment.roles.title">Guild recruitment</h2>
         <ul class="recruit-list">
           <li class="recruit-row">
-            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.2 8.5-7 10-3.8-1.5-7-5-7-10V6l7-3z"/></svg></span>
+            <span class="recruit-row__icon recruit-row__icon--tank" data-role-icon="tank" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M12 2l8 3v6c0 5.5-3.4 9.9-8 11-4.6-1.1-8-5.5-8-11V5l8-3z"/></svg></span>
             <span class="recruit-row__role" data-i18n="recruitment.roles.tank">Tank</span>
             <span class="recruit-row__status is-open" data-recruitment-status="tank">
-              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--open" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--closed" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
               <span class="recruit-row__status-label">Open</span>
             </span>
           </li>
           <li class="recruit-row">
-            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></span>
+            <span class="recruit-row__icon recruit-row__icon--healer" data-role-icon="healer" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M10 2h4v6h6v4h-6v6h-4v-6H4V8h6V2z"/></svg></span>
             <span class="recruit-row__role" data-i18n="recruitment.roles.healer">Healer</span>
             <span class="recruit-row__status is-open" data-recruitment-status="healer">
-              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--open" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--closed" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
               <span class="recruit-row__status-label">Open</span>
             </span>
           </li>
           <li class="recruit-row">
-            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="17" y2="7"/><line x1="14" y1="4" x2="20" y2="10"/><line x1="13" y1="8" x2="16" y2="11"/></svg></span>
+            <span class="recruit-row__icon recruit-row__icon--dps" data-role-icon="dps" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <g transform="rotate(45 12 12)">
+                  <rect x="11" y="1" width="2" height="16" rx="1"/>
+                  <rect x="8.5" y="15" width="7" height="2" rx="1"/>
+                </g>
+                <g transform="rotate(-45 12 12)">
+                  <path d="M9 1h6l-1 9h-4z"/>
+                  <rect x="11" y="10" width="2" height="12" rx="1"/>
+                </g>
+              </svg>
+            </span>
             <span class="recruit-row__role" data-i18n="recruitment.roles.dps">DPS</span>
             <span class="recruit-row__status is-open" data-recruitment-status="dps">
-              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--open" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--closed" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
               <span class="recruit-row__status-label">Open</span>
             </span>
           </li>
           <li class="recruit-row">
-            <span class="recruit-row__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4V5z"/></svg></span>
+            <span class="recruit-row__icon recruit-row__icon--social" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M4 4h16a1 1 0 011 1v11a1 1 0 01-1 1H9l-5 4V5a1 1 0 011-1z"/></svg></span>
             <span class="recruit-row__role" data-i18n="recruitment.roles.social">Social</span>
             <span class="recruit-row__status is-open" data-recruitment-status="social">
-              <span class="recruit-row__status-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--open" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+              <span class="recruit-row__status-icon recruit-row__status-icon--closed" aria-hidden="true"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>
               <span class="recruit-row__status-label">Open</span>
             </span>
           </li>
@@ -198,6 +213,7 @@
   <script src="js/recruitment-data.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/recruitment-status.js"></script>
+  <script src="js/recruitment-icons.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
