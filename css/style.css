@@ -29,7 +29,7 @@
   --color-role-tank: #4a90e2;
   --color-role-healer: #43b581;
   --color-role-dps: #d9534f;
-  --color-role-social: var(--color-gold);
+  --color-role-social: var(--color-flame);
 
   /* Type */
   --font-heading: 'Cinzel', Georgia, 'Times New Roman', serif;
