@@ -6,18 +6,23 @@ no build step. You can hand this whole folder to Claude any time and say
 
 ## What's in this folder
 
-- `index.html`, `about.html`, `recruitment.html`, `join.html` — the four pages.
+- `index.html`, `about.html`, `recruitment.html`, `progression.html`,
+  `join.html` — the pages. (`join.html` isn't in the menu — it's reached via
+  the "How to join" button on the Recruitment page.)
 - `css/style.css` — all the colors, fonts and layout.
 - `js/config.js` — **the Discord invite link lives here, in one place.**
+- `js/progression-data.js` — **raid status and boss kills live here, in one
+  place**, for the Progression page.
 - `js/main.js` — small page behaviors (mobile menu, filling in the Discord link).
-- `js/i18n.js` — the translation system (see below).
+- `js/i18n.js` / `js/progression.js` — the systems that read the two files above.
 - `lang/en.json` — the English text, kept here as the master copy for translators.
 - `images/banner.jpg`, `images/icon.jpg` — your artwork.
 
 ## Things you'll probably ask Claude to change later
 
 - **"Update the Discord link"** → one line in `js/config.js`.
-- **"Update the realm / faction / raid nights"** → the info boxes near the top
+- **"Update a raid's status / boss kills"** → `js/progression-data.js`.
+- **"Update the faction / raid nights"** → the info boxes near the top
   of `index.html` and `recruitment.html` (currently say "TBA").
 - **"Add Swedish/Norwegian/Danish"** → Claude copies `lang/en.json` to e.g.
   `lang/sv.json`, translates it, and adds one line in `js/i18n.js`. No other

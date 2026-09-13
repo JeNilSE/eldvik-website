@@ -2,7 +2,7 @@
   "common.nav.home": "Home",
   "common.nav.about": "About",
   "common.nav.recruitment": "Recruitment",
-  "common.nav.join": "Join",
+  "common.nav.progression": "Progression",
   "common.nav.discord": "Apply",
 
   "common.banner.wordmark": "Eldvik",
@@ -11,8 +11,8 @@
   "common.footer.copyright": "Eldvik — World of Warcraft: Forever",
   "common.footer.disclaimer": "Eldvik is an unofficial fan community for World of Warcraft: Forever and is not affiliated with or endorsed by Blizzard Entertainment.",
 
-  "common.info.realm.label": "Realm",
-  "common.info.realm.value": "TBA — not yet announced by Blizzard",
+  "common.info.ruleset.label": "Ruleset",
+  "common.info.ruleset.value": "PvP",
   "common.info.faction.label": "Faction",
   "common.info.faction.value": "Alliance (to be confirmed)",
   "common.info.raid.label": "Raid Nights",
@@ -23,6 +23,7 @@
   "home.hero.title": "A guild for Nordic players",
   "home.hero.lead": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
   "home.hero.ctaSecondary": "About us",
+  "home.realmless": "World of Warcraft: Forever is realmless — there's no server to pick. Anyone can join us, wherever they are.",
 
   "home.values.title": "What we're about",
   "home.values.social.title": "Social first",
@@ -37,9 +38,6 @@
 
   "about.hero.title": "About Eldvik",
   "about.story.body": "Eldvik is a Nordic guild for World of Warcraft: Forever. We're adults from Sweden, Norway and Denmark who believe the journey matters more than the destination, that dungeons are better with people you like, and that nobody should feel dumb for asking a question. We raid, but we don't chase logs. Real life always comes first.",
-
-  "about.name.title": "The name",
-  "about.name.body": "Eld means fire. Vik means bay, or cove. That's where Eldvik comes from.",
 
   "about.values.title": "What we value",
   "about.values.item1.title": "Respect",
@@ -69,6 +67,25 @@
   "recruitment.schedule.title": "How raiding will work",
   "recruitment.schedule.body": "Raid nights will be announced closer to launch — expect two evenings a week, European time, so weeknights work alongside jobs, studies and families.",
 
+  "recruitment.loot.title": "Loot",
+  "recruitment.loot.body": "Loot rules will be decided together with the guild before the first raid. The goal is something simple and fair, not a complicated points system.",
+
+  "recruitment.faq.title": "Frequently asked questions",
+  "recruitment.faq.q1": "What ruleset and faction do you play?",
+  "recruitment.faq.a1": "PvP ruleset, and Alliance — though that's not fully confirmed yet.",
+  "recruitment.faq.q2": "Is there a server I need to be on?",
+  "recruitment.faq.a2": "No. World of Warcraft: Forever doesn't have separate realms, so there's nothing to pick and nowhere to transfer from.",
+  "recruitment.faq.q3": "How much do I need to play?",
+  "recruitment.faq.a3": "As much or as little as you like outside of raid nights. We don't track playtime.",
+  "recruitment.faq.q4": "Do I have to raid?",
+  "recruitment.faq.a4": "No. Plenty of members are here for the social side and don't raid at all.",
+  "recruitment.faq.q5": "Do I have to speak on voice chat?",
+  "recruitment.faq.a5": "No, but most people do during raids because it's easier to coordinate. Outside of raids it's optional.",
+  "recruitment.faq.q6": "Do I need previous experience?",
+  "recruitment.faq.a6": "No. We don't check logs or ask about experience.",
+  "recruitment.faq.q7": "What languages do you use?",
+  "recruitment.faq.a7": "Mostly English, since we're Swedish, Norwegian and Danish players together. Use whichever you're comfortable with.",
+
   "recruitment.closing.title": "How to apply",
   "recruitment.closing.body": "The Join page walks through it, or you can go straight to our Discord.",
   "recruitment.closing.ctaSecondary": "How to join",
@@ -84,5 +101,14 @@
   "join.step3.body": "Say where you're from, what you like to play, and anything else you want us to know. An officer will reply.",
 
   "join.reassurance": "It doesn't have to be long. A few sentences is enough.",
-  "join.launchNote": "Realm and raid schedule will be announced as launch (November 4, 2026) gets closer — join the Discord now to be part of the planning."
+  "join.launchNote": "Raid schedule will be announced as launch (November 4, 2026) gets closer — join the Discord now to be part of the planning.",
+
+  "progression.hero.title": "Progression",
+  "progression.hero.lead": "Progression will be tracked here once we start raiding after launch on November 4, 2026.",
+  "progression.raid1.name": "Barrow Deeps",
+  "progression.raid1.meta": "Blackmaw Hold, Kalimdor — 10-player raid",
+  "progression.raid2.name": "Hyjal Summit",
+  "progression.raid2.meta": "Mount Hyjal, Kalimdor — 20-player raid",
+  "progression.stat.status": "Status",
+  "progression.stat.bossProgress": "Boss progress"
 }
